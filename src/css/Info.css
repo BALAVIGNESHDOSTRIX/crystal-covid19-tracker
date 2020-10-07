@@ -1,0 +1,34 @@
+.infoboxes{
+    flex: 1;
+    cursor: pointer;
+}
+
+.infoboxes:not(:last-child){
+    margin-right: 15px;
+}
+
+.infoboxes__no_cases{
+    color: #cc1034;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.infoboxes__total{
+    color: #6c757d;
+    font-weight: 700 !important;
+    font-size: 0.8rem !important;
+    margin-bottom: 15px !important;
+}
+
+.infoboxes--selected {
+    border-top: 10px solid greenyellow;
+  }
+  
+  .infoboxes--red {
+    border-color: red ;
+  }
+  
+  .infoboxes__no_cases--green {
+    color: lightgreen !important;
+  }
